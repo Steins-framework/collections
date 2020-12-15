@@ -1,0 +1,42 @@
+{
+    "name": "steins/collections",
+    "description": "Independent collections package, based on Illuminate Collections.",
+    "license": "MIT",
+    "homepage": "https://github.com/Steins-framework/collections",
+    "support": {
+        "issues": "https://github.com/Steins-framework/issues",
+        "source": "https://github.com/Steins-framework"
+    },
+    "authors": [
+        {
+            "name": "Mitsuha",
+            "email": "misakasweb@gmail.com"
+        },
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/macroable": "^9.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "9.x-dev"
+        }
+    },
+    "suggest": {
+        "symfony/var-dumper": "Required to use the dump method (^5.2)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
