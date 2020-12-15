@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "illuminate/macroable": "^9.0",
+        "illuminate/macroable": "^8.18",
         "ext-json": "*"
     },
     "autoload": {
